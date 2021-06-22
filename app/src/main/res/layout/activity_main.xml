@@ -23,7 +23,7 @@
         app:rowCount="3">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imageView0"
             android:layout_width="100dp"
             android:layout_height="95dp"
             android:layout_marginLeft="44dp"
@@ -40,25 +40,25 @@
             android:layout_marginLeft="7dp"
             android:layout_marginTop="42dp"
             android:onClick="dropin"
-            android:tag="1"
+            android:tag="2"
             app:layout_column="2"
             app:layout_row="0"
             />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/imageView1"
             android:layout_width="95dp"
             android:layout_height="95dp"
             android:layout_marginLeft="14dp"
             android:layout_marginTop="42dp"
             android:onClick="dropin"
-            android:tag="2"
+            android:tag="1"
             app:layout_column="1"
             app:layout_row="0"
             />
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/imageView3"
             android:layout_width="95dp"
             android:layout_height="95dp"
             android:layout_marginLeft="44dp"
@@ -70,7 +70,7 @@
             />
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/imageView4"
             android:layout_width="95dp"
             android:layout_height="95dp"
             android:layout_marginLeft="14dp"
@@ -82,7 +82,7 @@
             />
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/imageView5"
             android:layout_width="95dp"
             android:layout_height="95dp"
             android:layout_marginLeft="7dp"
@@ -94,7 +94,7 @@
              />
 
         <ImageView
-            android:id="@+id/imageView7"
+            android:id="@+id/imageView6"
             android:layout_width="95dp"
             android:layout_height="95dp"
             android:layout_marginLeft="45dp"
@@ -106,7 +106,7 @@
             />
 
         <ImageView
-            android:id="@+id/imageView8"
+            android:id="@+id/imageView7"
             android:layout_width="95dp"
             android:layout_height="95dp"
             android:layout_marginLeft="14dp"
@@ -118,7 +118,7 @@
 
 
         <ImageView
-            android:id="@+id/imageView9"
+            android:id="@+id/imageView8"
             android:layout_width="95dp"
             android:layout_height="95dp"
             android:layout_marginLeft="8dp"

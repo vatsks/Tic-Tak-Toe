@@ -37,10 +37,16 @@ public void dropin(View view) {
     counter.animate().translationYBy(1000).setDuration(400);
     for(int[] winningPositio : winningPosition){
         if (gameState[winningPositio[0]]==gameState[winningPositio[1]]&&gameState[winningPositio[1]]==gameState[winningPositio[2]]&&gameState[winningPositio[0]]!=2){
+              String message;
+            if(activePlayer==0){
+                message="cross";
+            }
+            else
+            {
+                message="circle";
+            }
 
-            if(activePlayer==0)
-
-            Toast.makeText(this,"anyone won",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,message+" has won",Toast.LENGTH_LONG).show();
         }
     }
 
