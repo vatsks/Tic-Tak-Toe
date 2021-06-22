@@ -81,7 +81,7 @@ public void dropin(View view) {
 
                 Button buttonPlayAgain=findViewById(R.id.buttonPlayAgain);
                 TextView textViewwinner=findViewById(R.id.textViewwinner);
-                textViewwinner.setText(message);
+                textViewwinner.setText(message + "has won !!");
                 textViewwinner.setVisibility(View.VISIBLE);
                 buttonPlayAgain.setVisibility(View.VISIBLE);
             }
